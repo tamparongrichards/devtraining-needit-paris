@@ -14,6 +14,7 @@
                 <element inactive_on_update="false" label="Your Department Choice" sequence="3" value="your_choice"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Others" max_length="40" name="u_other" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal1" label="What Needed" mandatory="true" max_length="40" name="what_needed" type="string">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
